@@ -1,0 +1,432 @@
+<html lang="en">
+  <head>
+    <title>Transistor Music</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href ="styles/stylesheet.css"/>
+  </head>
+  
+  <body>
+    <div class="page-wrapper">
+
+      <!---------------------- Header section -------------------->
+      <header class="page-header">
+        <div id="header">
+          <!-- top header section -->
+          <div class="header-top">
+            <nav>
+              <ul class="page-header_links">
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">Sign In/Register</a></li>
+                <li><a href="#">Help?</a></li>
+                <!-- dropdown menu for currency -->
+                <div class="dropdown">
+                  <li class="dropdown-button" id="currency">British Pound - GBP</li><img src="./images/chevron-down.svg" class="chevron-down">
+                  <div class="dropdown-content">
+                    <a href="#">US Dollar - USD</a>
+                    <a href="#">Euro - EUR</a>
+                    <a href="#">Japanese Yen - JPY</a>
+                  </div>
+                </div> 
+              </ul>
+            </nav>
+
+            <!-- menu icon for mobile design nav bar
+              <div class="menu-toggle">
+                <img src="images/icons/navbar-icon.svg"">
+              </div> 
+            -->
+          </div> <!-- end top header -->
+
+          <!-- middle header section -->
+          <div id="middle-header-container">
+
+            <div id="middle-header-logo">
+              <img src="images/transistor-logo.svg" alt="Transistor Music Logo" title="Transistor Music">
+            </div>
+                  
+            <div id="middle-header-search">
+              <input id="search-bar" type="text" placeholder="Search...">
+              <div id="search-glass">
+                <a href="#" title="Search" id="search-link"> <img src="images/icons/search-icon.svg"></a>
+              </div>
+            </div>
+        
+            <div id="middle-header-icons">
+              <div>
+                <img src="images/icons/heart-icon.svg" title="Favourites" alt="Favourites" class="favourites middle-icon">
+              </div>  
+
+              <div>
+                <img src="images/icons/basket-icon.svg" title="Basket" alt="Basket" class="basket middle-icon">
+              </div>
+
+              <div class="basket-total-container">
+                <img src="images/icons/basket-number-icon.svg" title="Basket Items Total" class="basket-total middle-icon">
+                <span class="total-items-basket">0</span>
+              </div>
+            </div> <!-- end middle-header-icons div -->
+          </div> <!-- end middle header -->
+
+          <!-- bottom header section -->
+          <div id="bottom-header-container">
+            <nav class="navigation">
+              <ul>
+                <li><a title="Pre-Orders" href="#">Pre-Orders</a></li>
+                <li><a title="Vinyl" href="#">Vinyl</a></li>
+                <li><a title="Box Sets & Reissues" href="#">Box Sets & Reissues</a></li>
+                <li><a title="Books" href="#">Books</a></li>
+                <li><a title="Art Prints" href="#">Art Prints</a></li>
+                <li><a title="Merch" href="#">Merch</a></li>
+                <li><a title="Live Albums" href="#">Live Albums</a></li>
+                <li><a title="Signed" href="#">Signed</a></li>
+                <li><a title="Storefronts" href="#">Storefronts</a></li>
+                <li><a title="Artists" href="#">Artists</a></li>
+                <li><a title="Genres" href="#">Genres</a></li>
+              </ul>
+            </nav>
+          </div> <!-- end bottom header -->
+
+          <hr class="nav-hr">
+        </div> <!-- end header div -->
+      </header>
+
+      <!---------------------- Main content section -------------------->
+      <main id="main-content">
+
+        <p class="main-headline">We're giving away <b>10 x £50 Transistor Music vouchers</b> and <b>10 x David Gilmour mini art print packs.</b></p>
+        <a title="Sign up" class="main-headline sign-up" href="#">Sign up now to be in with a chance of winning!</a>
+
+        <!-- slideshow advertisement banner -->
+        <div id="slideshow">
+          <div id="slideshow-container">
+            <!-- gradient effect for slideshow -->
+            <div class="slideshow-gradient">
+              <img src="images/slideshow-large.png" alt="Album banner" class="large-slideshow">
+            </div>
+            <a href="#" class="arrow left-arrow"><img src="images/double-arrow-left.svg" alt="Left"></a>
+            <a href="#" class="arrow right-arrow"><img src="images/double-arrow-right.svg" alt="Right"></a>
+            <img src="images/slideshow-small.png" class="slideshow-small">
+            <span class="slideshow-heading"><h1>RANKING ROGER</h1></span>
+            <span class="slideshow-text"><p>I Just Can't Stop It: My Life In The Beat - Special Edition</p></span>
+            <div class="ellipse-container">
+              <a href="#"><img src="images/ellipse-inactive.svg" class="ellipse"></a>
+              <a href="#"><img src="images/ellipse-inactive.svg" class="ellipse"></a>
+              <img src="images/ellipse-active.svg" class="ellipse">
+              <a href="#"><img src="images/ellipse-inactive.svg" class="ellipse"></a>
+              <a href="#"><img src="images/ellipse-inactive.svg" class="ellipse"></a>
+            </div>
+          </div><!-- end slideshow container -->
+        </div> <!-- end slideshow -->
+
+        <!-- social media icons -->
+        <div class="social-icons">
+            <a href="https://www.facebook.com" title="Facebook"><img src="./images/icons/icon-facebook.svg" alt="Facebook" class="social-icon"></a>
+            <a href="https://www.twitter.com" title="Twitter"><img src="./images/icons/icon-twitter.svg" alt="Twitter" class="social-icon"></a>
+            <a href="https://www.youtube.com" title="YouTube"><img src="./images/icons/icon-youtube.svg" alt="YouTube" class="social-icon"></a>
+            <a href="https://www.instagram.com" title="Instagram"><img src="./images/icons/icon-instagram.svg" alt="Instagram" class="social-icon"></a>
+        </div>
+   
+        <!-- grid displaying album covers -->
+        <div class="grid-container-main">
+
+          <div class="grid-item-main"><img src="images/tile-way.png" alt="Way... cover" title="Way... cover"></div> 
+          <div class="grid-item-main"><img src="images/tile-ranking-roger.png" alt="I Just Can't Stop It cover" title=""></div> 
+          <!-- tile with the arrow and description (presumably the current / playable song/cover) -->
+          <div class="grid-item-main current-item">
+            <div class="current-tile-gradient">     <!-- gradient for the current song-->
+              <img src="images/tile-saxon.png" alt="Saxon cover" title="Saxon cover">
+            </div>
+            <a href="#" class="current-arrow-tile"><img src="images/double-arrow-right.svg" alt="Right"></a>
+            <div class="current-content-wrapper">
+              <h2 class="current-title-tile">Saxon</h2>
+              <p class="current-details-tile">The Eagle Has Landed 40 (Live) - 747 Signature Edition</p>
+            </div>
+          </div> <!-- end current item div -->
+          <div class="grid-item-main-big"><img src="images/tile-emmylou.png" alt="Emmylou Harris cover" class="big-tile" title="Emmylou Harris cover"></div> 
+          <div class="grid-item-main"><img src="images/tile-omd-large.png" alt="OMD cover" title="OMD cover"></div>
+          <div class="grid-item-main"><img src="images/tile-truck.png" alt="Truck Man cover" title="Truck Man cover"></div> 
+          <div class="grid-item-main"><img src="images/tile-guitar-lady.png" alt="Guitar Lady cover" title="Guitar Lady cover"></div> 
+          <div class="grid-item-main"><img src="images/tile-defying-gravity.png" alt="Defying Gravity cover" title="Defying Gravity cover"></div> 
+          <div class="grid-item-main"><img src="images/tile-smoking-man.png" alt="Smoking Man cover" title="Smoking Man cover"></div> 
+
+        </div> <!-- end grid -->
+
+      </main> <!-- end main section-->
+
+      <!---------------------- Subscribe section -------------------->
+      <section id="subscribe">
+
+        <div id="subscribe-container">
+          <div id="subscribe-left">
+            <h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
+            <p>Be the first to hear about our latest Pre-Order Campaigns, box sets, reissues and much more</p>
+          </div>
+          <div id="subscribe-right">
+            <div id="subscribe-email">
+              <input id="subscribe-input" type="email" placeholder="Your email address">
+            </div>
+            <a title="Sign up" href="#">Sign Me Up For Emails</a>
+          </div>
+        </div> <!-- end subscribe section -->
+
+      </section> <!-- send subscribe section -->
+
+
+      <!---------------------- Available to pre-order/now section -------------------->
+      <!-------- Available pre-order -------->
+      <section id="available-preorder">
+        <h1>Available To Pre-Order</h1>
+        <div class="flex-container-preorder">
+          <div class="flex-item-available">
+            <img src="images/tile-omd-medium.png" alt="OMD" title="OMG">
+            <h3>ORCHESTRAL MANOEUVRES IN THE DARK</h3>
+            <p>Architecture & Morality / Dazzle Ships Live At The Royal Albert Hall - 3LP</p>
+            <p class="item-price">£40.00</p>
+          </div>
+          <div class="flex-item-available">
+            <img src="images/tile-wilco.png" alt="Wilco" title="Wilco">
+            <h3>WILCO</h3>
+            <p>Being There - Box Set</p>
+            <p class="item-price">£59.99</p>
+          </div>
+          <div class="flex-item-available">
+            <img src="images/tile-johnny.png" alt="Johnny" title="Johnny">
+            <h3>JOHHNY MARR</h3>
+            <p>Comet Tripper Live At The Roundhouse - Coloured 3LP</p>
+            <p class="item-price">£40.00</p>
+          </div>
+          <div class="flex-item-available">
+            <img src="images/tile-generationx.png" alt="Generation X" title="Generation X">
+            <h3>GENERATION X</h3>
+            <p>Generation X (Deluxe Edition) - 3LP Box Set</p>
+            <p class="item-price">£40.00</p>
+          </div>
+        </div> <!-- end preorder flex container -->
+        <hr class="preorder-hr">
+      </section> <!-- end preorder section -->
+
+      <!----------- Available Now ----------->
+      <section id="available-now">
+        <h1>Available To Pre-Order</h1>
+        <div class="flex-container-now">
+
+          <div class="flex-item-available">
+            <img src="images/tile-omd-medium.png" alt="OMD" title="OMG">
+            <h3>ORCHESTRAL MANOEUVRES IN THE DARK</h3>
+            <p>Architecture & Morality / Dazzle Ships Live At The Royal Albert Hall - 3LP</p>
+            <p class="item-price">£40.00</p>
+          </div>
+            
+          <div class="flex-item-available">
+            <img src="images/tile-wilco.png" alt="Wilco" title="Wilco">
+            <h3>WILCO</h3>
+            <p>Being There - Box Set</p>
+            <p class="item-price">£59.99</p>
+          </div>
+
+          <div class="flex-item-available">
+            <img src="images/tile-johnny.png" alt="Johnny" title="Johnny">
+            <h3>JOHHNY MARR</h3>
+            <p>Comet Tripper Live At The Roundhouse - Coloured 3LP</p>
+            <p class="item-price">£40.00</p>
+          </div>
+
+          <div class="flex-item-available">
+            <img src="images/tile-generationx.png" alt="Generation X" title="Generation X">
+            <h3>GENERATION X</h3>
+            <p>Generation X (Deluxe Edition) - 3LP Box Set</p>
+            <p class="item-price">£40.00</p>
+          </div>
+
+        </div> <!-- end now flex container -->
+      </section> <!-- end now section -->
+
+      <!---------------------- Explore Transistor music section -------------------->
+      <section id="explore">
+        <h1>Explore Transistor Music</h1>
+        <ul>
+          <li><a title="Vinyl" href="#">Vinyl</a></li>
+          <li><a title="Box Sets & Reissues" href="#">Box Sets & Reissues</a></li>
+          <li><a title="Books" href="#">Books</a></li>
+          <li><a title="Art Prints" href="#">Art Prints</a></li>
+          <li><a title="Merchandise" href="#">Merchandise</a></li>
+          <li><a title="Live Albums" href="#" class="explore-active explore-underline">Live Albums</a></li>
+          <li><a title="Signed" href="#">Signed</a></li>
+          <li><a title="Storefronts" href="#">Storefronts</a></li>
+        </ul>
+
+        <div id="explore-middle">
+          <div id="explore-middle-left">
+            <img src="images/c-shape-overlay.png" class="explore-overlay">
+            <!-- explore album covers c-shaped grid -->
+            <div class="grid-container-explore">
+              <div class="grid-item-explore">
+                <img src="images/tile-shademan.png" alt="Shademan cover" title="Shademan cover">
+              </div> 
+              <div class="grid-item-explore">
+                <img src="images/tile-omd-small.png" alt="OMD cover" title="OMD cover">
+              </div> 
+              <div class="grid-item-explore">
+                <img src="images/tile-johnny-small.png" alt="Johnny cover" title="Johnny cover">
+              </div> 
+              <div class="grid-item-explore">
+                <img src="images/tile-killing-joke.png" alt="Killing Joke cover" title="Killing Joke cover">
+              </div> 
+              <!-- 2 palceholder divs below to create the c shaped grid -->
+              <div class="grid-item-explore">
+              </div> 
+              <div class="grid-item-explore">
+              </div>
+              <div class="grid-item-explore">
+                <img src="images/tile-ring.png" alt="Ring" title="Ring cover">
+              </div> 
+              <div class="grid-item-explore">
+                <img src="images/tile-kt-tunstall.png" alt="KT Tunstall cover" title="KT Tunstall cover">
+              </div> 
+              <div class="grid-item-explore">
+                <img src="images/tile-bullet.png" alt="Bullet cover" title="Bullet cover">
+              </div> 
+            </div> <!-- end explore c shaped grid -->
+          </div>
+
+          <div id="explore-middle-right">
+            <h1 id="explore-middle-heading">Live Here Now, is the specialist live music label and production company.</h2> 
+            <p>LHN provide artists with the opportunity to sell beautifully packaged, limited 
+               edition live projects to their dedicated fan-base and the wider music audience.</p>
+            <a title="SHOP NOW" href="#" id="explore-shop-now" class="explore-underline">SHOP NOW</a>
+          </div>
+
+        </div> <!-- end explore-middle div -->
+      </section> <!-- end explore section -->
+
+      <!---------------------- Features section -------------------->
+      <section id="features">
+        <h1>Features</h1>
+        <div class="flex-container-features">
+
+          <!-- first item -->
+          <div class="flex-item-features">
+            <div class="features-details-container">
+              <img src="images/tile-men.png" alt="Keywestofficial cover">
+            </div>
+            <div class="features-details-container features-details-text">
+              <p class="features-date">19 June 2019</p>
+              <h2>EXCLUSIVE PREMIER</h2>
+              <p>Check Out The Video For Keywestofficial Feat. Una Healy’s Spellbinding Duet 
+                  ‘I’m Not Me Without You’, Streaming Now, Only At Their Official Ordinary 
+                  Superhero Pre-Order Store.</p>
+              <a title="Read More" href="#">READ MORE</a>
+            </div>
+          </div>
+            
+          <!-- second item -->
+          <div class="flex-item-features">
+            <div class="features-details-container">
+              <img src="images/tile-cds.png" alt="Orchestral Manoeuvres cover">
+            </div>
+            <div class="features-details-container features-details-text">
+              <p class="features-date">19 June 2019</p>
+              <h2>ORCHESTRAL MANOEURVERS IN THE DARK</h2>
+              <p>Over On The Saxon (Official) Store, We Have A Set Of Test Pressings Of All 
+                Five Records From This Landmark Box Set, Signed By The Artist, Up For Grabs!
+              </p>
+              <a title="Read More" href="#">READ MORE</a>
+            </div>
+          </div>
+
+        </div> <!-- end now flex container -->
+      </section> <!-- end features section -->
+
+
+      <!---------------------- Bottom banner section -------------------->
+      <section id="bottom-banner">
+
+        <div class="bottom-banner-wrapper">
+          <img src="./images/tile-live-here-now-bg.png" class="bottom-banner-bg">
+          <img src="./images/tile-unkle.png" class="bottom-unkle-tile bottom-banner-tile" alt="Unkle cover">
+          <img src="./images/tile-shademan.png" class="bottom-shade-man-tile bottom-banner-tile" alt="Shade Man cover">
+          <img src="./images/tile-ring.png" class="bottom-ring-tile bottom-banner-tile" alt="Ring cover">
+          <img src="./images/tile-johnny-xs.png" class="bottom-johnny-tile bottom-banner-tile" alt="Johnny cover">
+          <img src="./images/tile-gray-square.png" class="bottom-square-tile bottom-banner-tile" alt="Gray Square cover">
+
+          <div class="bottom-banner-text">    
+            <p class="bottom-banner-heading"><b>Live h</b>ere Now</p>
+            <p class="bottom-banner-paragraph">Live Here Now, Is The Specialist Live Music Label And Production Company. 
+              LHN Provide Artists With The Opportunity To Sell Beautifully Packaged, Limited 
+              Edition Live Projects To Their Dedicated Fan-Base And The Wider Music Audience.</p>
+            <div class="bottom-banner-link-container"><a href="#" class="bottom-banner-link">SHOP NOW</a></div>
+          </div>
+        </div> <!-- end bottom banner wrapper -->
+
+      </section> <!-- end bottom banner section -->
+
+      <!-------------------------------- Payment icons section ------------------------------>
+      <div id="payments">
+        <span class="payment-icon"> <img src="images/mastercard-logo.svg" alt="Mastercard accepted" title="Mastercard accepted"> </span>
+        <span class="payment-icon"> <img src="images/visa-logo.svg" alt="Visa accepted" title="Visa accepted"> </span>
+        <span class="payment-icon"> <img src="images/paypal-logo.svg" alt="PayPal accepted" title="PayPal accepted"> </span>
+        <span class="payment-icon"> <img src="images/googlepay-logo.svg" alt="Google Pay accepted" title="Google Pay accepted"> </span>
+        <span class="payment-icon"> <img src="images/applepay-logo.svg" alt="Apple Pay accepted" title="Apple Pay accepted"> </span>
+        <span class="vertical-line"></span>
+        <span class="payment-icon"> <img src="images/google-certified.svg" alt="Google Certified" title="Google Certified"> </span>
+      </div>
+
+      <!-------------------------------- Footer section ------------------------------>
+      <footer id="page-footer">
+
+        <div class="footer-wrapper">
+          <!-- footer help section -->
+          <div class="footer-list">
+            <strong>Help & Support</strong>
+              <ul>
+                <li><a title="Delivery Information" href="#">Delivery Information</a></li>
+                <li><a title="Returns Policy" href="#">Returns Policy</a></li>
+                <li><a title="Terms & Conditions" href="#">Terms & Conditions</a></li>
+                <li><a title="Privacy Policy" href="#">Privacy Policy</a></li>
+                <li><a title="FAQ" href="#">FAQ</a></li>
+              </ul>
+          </div>
+          <!-- footer company section -->
+          <div class="footer-list">
+            <strong>Transistor Music</strong>
+              <ul>
+                <li><a title="About Us" href="#">About Us</a></li>
+                <li><a title="Our Blog" href="#">Our Blog</a></li>
+                <li><a title="Sitemap" href="#">Sitemap</a></li>
+                <li><a title="Cookies" href="#">Cookies</a></li>
+              </ul>
+          </div>
+          <!-- footer legal section -->
+          <div class="footer-list">
+            <strong>Legal</strong>
+              <ul>
+                <li><a title="Delivery Information" href="#">Delivery Information</a></li>
+                <li><a title="Returns Policy" href="#">Returns Policy</a></li>
+                <li><a title="Terms & Conditions" href="#">Terms & Conditions</a></li>
+                <li><a title="Privacy Policy" href="#">Privacy Policy</a></li>
+              </ul>
+          </div>
+          <!-- footer social media section -->
+          <div class="footer-list">
+            <strong>Follow Us</strong>
+              <div class="social-icons">
+                <a href="https://www.facebook.com" title="Facebook"><img src="./images/icons/icon-facebook-footer.svg" alt="Facebook" class="social-icon first-footer-social"></a>
+                <a href="https://www.twitter.com" title="Twitter"><img src="./images/icons/icon-twitter-footer.svg" alt="Twitter" class="social-icon"></a>
+                <a href="https://www.youtube.com" title="YouTube"><img src="./images/icons/icon-youtube-footer.svg" alt="YouTube" class="social-icon"></a>
+                <a href="https://www.instagram.com" title="Instagram"><img src="./images/icons/icon-instagram-footer.svg" alt="Instagram" class="social-icon"></a>
+              </div>
+          </div>
+
+          </div> <!-- end footer wrapper -->
+
+        <!------------ copyright section ------------>
+        <div class="copyright">
+          <p>Copyright &#169 2019 Transistor Music</p>
+        </div>
+
+      </footer> <!-- end footer section -->
+
+    </div> <!-- end page-wrapper div -->
+  </body>
+</html>
