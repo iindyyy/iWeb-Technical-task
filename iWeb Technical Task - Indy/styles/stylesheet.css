@@ -485,9 +485,12 @@ the code, as the content is identical */
   max-width: 90%;
 }
 .flex-item-available {
-  width: 287px;
+  width: 260px;
   color: #112549;
   margin-bottom: 10px;
+}
+.flex-item-available img {
+  width: 100;
 }
 .flex-item-available h3 {
   text-align: left;
