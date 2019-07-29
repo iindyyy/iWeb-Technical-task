@@ -490,7 +490,7 @@ the code, as the content is identical */
   margin-bottom: 10px;
 }
 .flex-item-available img {
-  width: 100;
+  width: 100%;
 }
 .flex-item-available h3 {
   text-align: left;
